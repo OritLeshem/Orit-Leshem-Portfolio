@@ -1,6 +1,5 @@
 My portfolio
-react app
-css
+Responsive react app
 
 link:
  https://oritleshem.github.io/Orit-Leshem-Portfolio/
