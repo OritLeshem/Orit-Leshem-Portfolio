@@ -57,8 +57,8 @@ const Experience = () => {
               <h4>Angular.js</h4>
             </article>
             <article className='experience__details'>
-              <DiSass className='experience__details-icon' />
-              <h4>Sass</h4>
+              <DiCss3Full className='experience__details-icon' />
+              <h4>SCSS</h4>
             </article>
             {/* material */}
             <article className='experience__details'>
