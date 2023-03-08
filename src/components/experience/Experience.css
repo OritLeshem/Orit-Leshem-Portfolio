@@ -37,6 +37,11 @@ gap:1rem;
   transform: scale(1.6);
   /* margin-right: 15px; */
 }
+.experience__details-icon-ex {
+  transform: scale(1.6);
+  color:white;
+  /* margin-right: 15px; */
+}
 .experience__details>h6{
   font-size: 6px;
   margin-right:-6px ;

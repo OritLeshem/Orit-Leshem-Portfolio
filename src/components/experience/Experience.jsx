@@ -57,7 +57,7 @@ const Experience = () => {
               <h4>Angular.js</h4>
             </article>
             <article className='experience__details'>
-              <DiCss3Full className='experience__details-icon' />
+              <DiSass className='experience__details-icon' />
               <h4>SCSS</h4>
             </article>
             {/* material */}
@@ -87,10 +87,9 @@ const Experience = () => {
               <SiNodedotjs className='experience__details-icon' />
               <h4>Node.js</h4>
             </article>
-            {/* <article className='experience__details'>
-              <AiOutlineHtml5 className='experience__details-icon'/>
-              <h4>Express</h4>
-            </article> */}
+            <article className='experience__details'>
+              <p style={{ fontSize: "10px" }} className='experience__details-icon'>ex</p>              <h4>Express</h4>
+            </article>
             <article className='experience__details'>
               <DiMongodb className='experience__details-icon' />
               <h4>MongoDB</h4>
