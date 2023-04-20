@@ -17,6 +17,10 @@
 border-color: var(--color-primary-variant);
 background: transparent;
 }
+.portfolio__item:hover .portfolio__item-image img{
+  filter: brightness(30) invert(1);
+}
+
 .portfolio__item-image{
   border-radius: 1.5rem;
   overflow: hidden;
@@ -24,6 +28,12 @@ background: transparent;
 
 .portfolio__item h3{
 margin: 1.2rem 0 2rem;
+}
+.portfolio__item-desc-container{
+  height: 5rem;
+}
+.portfolio__item-desc{
+  font-size: 1rem;
 }
 .portfolio__item-cta{
   display: flex;
