@@ -52,7 +52,7 @@ const Portfolio = () => {
           </div>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/OritLeshem/chat-gpt" className='btn' target='_blank'>Github</a>
-            <a href="https://chat-gpt-az9j.onrender.com" className='btn btn-primary' target='_blank'>Live-demo</a>
+            <a href="https://chat-gpt-frontend.onrender.com/" className='btn btn-primary' target='_blank'>Live-demo</a>
           </div>
         </article>
 
