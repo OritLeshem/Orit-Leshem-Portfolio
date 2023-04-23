@@ -62,7 +62,7 @@ const Portfolio = () => {
           </div>
           <h3>Contact list with info about Bitcoin rate</h3>
           <div className="portfolio__item-desc-container">
-            <h3 className="portfolio__item-desc">Vue.js | SCSS | REST API</h3>
+            <h3 className="portfolio__item-desc">Vue.js | Vuex | SCSS | REST API</h3>
           </div>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/OritLeshem/Mr-Bitcoin" className='btn' target='_blank'>Github</a>
