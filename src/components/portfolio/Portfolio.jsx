@@ -1,104 +1,108 @@
-import React from 'react'
-import './Portfolio.css'
-import FIVERR from '../../assets/fiverr.svg'
-import SPOTIFY from '../../assets/spotify1.svg'
-import NOTE from '../../assets/note1.svg'
-import MEME from '../../assets/meme.svg'
-// import CONTACT from '../../assets/contacts.svg'
-import CONTACT from '../../assets/bitcoin2.svg'
-
-import CHATGPT from '../../assets/chatgpt3.svg'
-
+// Portfolio.js
+import React, { useState } from 'react';
+import './Portfolio.css';
+import FIVERR from '../../assets/fiverr.svg';
+import SPOTIFY from '../../assets/spotify1.svg';
+import NOTE from '../../assets/note1.svg';
+import MEME from '../../assets/meme.svg';
+import CONTACT from '../../assets/bitcoin2.svg';
+import CHATGPT from '../../assets/chatgpt3.svg';
+import CHATGPTVIDEO from '../../assets/chatgpt-video.mp4';
+import FINDERRVIDEO from '../../assets/finderr-video.mp4';
+import SPOTIFYVIDEO from '../../assets/finderr-video.mp4';
+import CONTACTVIDEO from '../../assets/finderr-video.mp4';
 
 const Portfolio = () => {
+  const videoItems = [
+    {
+      image: SPOTIFY,
+      title: 'Inspired by Spotify',
+      videoSrc: SPOTIFYVIDEO,
+      description: 'React | Redux | SCSS | Node.js | MongoDB | REST API',
+      githubUrl: 'https://github.com/OritLeshem/spotify-app',
+      liveDemoUrl: 'https://spotify-app-uejg.onrender.com/',
+    },
+    {
+      image: FIVERR,
+      title: 'Inspired by Fiverr',
+      videoSrc: FINDERRVIDEO,
+      description: 'React | Redux | SCSS | Node.js | MongoDB',
+      githubUrl: 'https://github.com/OritLeshem/sprint4-fiverr',
+      liveDemoUrl: 'https://finderr.onrender.com',
+    },
+    {
+      image: CHATGPT,
+      title: 'Inspired by chatGPT',
+      videoSrc: CHATGPTVIDEO,
+      description: 'React | CSS | Node.js | REST API',
+      githubUrl: 'https://github.com/OritLeshem/chat-gpt',
+      liveDemoUrl: 'https://chat-gpt-frontend.onrender.com/',
+    },
+    {
+      image: CONTACT,
+      title: 'Contact list with info about Bitcoin rate',
+      videoSrc: CONTACTVIDEO,
+      description: 'Vue.js | Vuex | SCSS | REST API',
+      githubUrl: 'https://github.com/OritLeshem/Mr-Bitcoin',
+      liveDemoUrl: 'https://oritleshem.github.io/Mr-Bitcoin/',
+    },
+  ]
+
+  const [activeVideoIndex, setActiveVideoIndex] = useState(null);
+
+  const handlePlay = (index) => {
+    if (activeVideoIndex === index) {
+      // If the same video is already playing, close it
+      setActiveVideoIndex(null)
+    } else {
+      // If a different video is playing or no video is playing, play the clicked video
+      setActiveVideoIndex(index)
+    }
+  }
+
+
+
   return (
-    <section id='portfolio'>
+    <section id="portfolio">
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={SPOTIFY} alt="portfolio" />
-          </div>
-          <h3>Inspired by Spotify </h3>
-          <div className="portfolio__item-desc-container">
-            <h3 className="portfolio__item-desc" >React | Redux | SCSS | Node.js | MongoDB | REST API</h3>
-          </div>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/OritLeshem/spotify-app" className='btn' target='_blank'>Github</a>
-            <a href="https://spotify-app-uejg.onrender.com/" className='btn btn-primary' target='_blank'>Live-demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={FIVERR} alt="portfolio" />
-          </div>
-          <h3>Inspired by Fiverr</h3>
-          <div className="portfolio__item-desc-container">
-            <h3 className="portfolio__item-desc">React | Redux | SCSS | Node.js | MongoDB</h3>
-          </div>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/OritLeshem/sprint4-fiverr" className='btn' target='_blank'>Github</a>
-            <a href="https://finderr.onrender.com" className='btn btn-primary' target='_blank'>Live-demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={CHATGPT} alt="portfolio" />
-          </div>
-          <h3>Inspired by chatGPT</h3>
-          <div className="portfolio__item-desc-container">
-            <h3 className="portfolio__item-desc">React | CSS | Node.js | REST API</h3>
-          </div>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/OritLeshem/chat-gpt" className='btn' target='_blank'>Github</a>
-            <a href="https://chat-gpt-frontend.onrender.com/" className='btn btn-primary' target='_blank'>Live-demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={CONTACT} alt="portfolio" />
-          </div>
-          <h3>Contact list with info about Bitcoin rate</h3>
-          <div className="portfolio__item-desc-container">
-            <h3 className="portfolio__item-desc">Vue.js | Vuex | SCSS | REST API</h3>
-          </div>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/OritLeshem/Mr-Bitcoin" className='btn' target='_blank'>Github</a>
-            <a href="https://oritleshem.github.io/Mr-Bitcoin/" className='btn btn-primary' target='_blank'>Live-demo</a>
-          </div>
-        </article>
-
-        {/* <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={NOTE} alt="portfolio" />
-          </div>
-          <h3>Appsus - inspired by google keep</h3>
-          <div className="portfolio__item-desc-container">
-            <h3 className="portfolio__item-desc">React | CSS</h3>
-          </div>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/OritLeshem/appsus" className='btn' target='_blank'>Github</a>
-            <a href="https://oritleshem.github.io/appsus/" className='btn btn-primary' target='_blank'>Live-demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={MEME} alt="portfolio" />
-          </div>
-          <h3>MIMI - meme generator</h3>
-          <div className="portfolio__item-desc-container">
-            <h3 className="portfolio__item-desc">JS | CANVAS | HTML | CSS</h3>
-          </div>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/OritLeshem/Meme-Generator" className='btn' target='_blank'>Github</a>
-            <a href="https://oritleshem.github.io/Meme-Generator/" className='btn btn-primary' target='_blank'>Live-demo</a>
-          </div>
-        </article> */}
+        {videoItems.map((item, index) => (
+          <article className="portfolio__item" key={index}>
+            <div className="portfolio__item-image">
+              <img src={item.image} alt="portfolio" />
+            </div>
+            <h3>{item.title}</h3>
+            <div className="portfolio__item-desc-container">
+              <h3 className="portfolio__item-desc">{item.description}</h3>
+            </div>
+            <div className="portfolio__item-cta">
+              <a href={item.githubUrl} className="btn" target="_blank" rel="noopener noreferrer">
+                Github
+              </a>
+              <a href={item.liveDemoUrl} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                Live-demo
+              </a>
+              <button className="btn" onClick={() => handlePlay(index)}>
+                {activeVideoIndex === index ? 'Close' : 'Video'}
+              </button>
+            </div>
+            {activeVideoIndex === index && (
+              <div>
+                <video
+                  autoPlay
+                  controls
+                  style={{ width: '100%', maxWidth: '800px' }}
+                  src={item.videoSrc}
+                />
+              </div>
+            )}
+          </article>
+        ))}
       </div>
     </section>
-
   )
 }
+
+
 export default Portfolio
