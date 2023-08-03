@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/Orit-Leshem-Portfolio/static/css/main.df2812cf.css",
-    "main.js": "/Orit-Leshem-Portfolio/static/js/main.8f3af3cd.js",
+    "main.css": "/Orit-Leshem-Portfolio/static/css/main.16689dbe.css",
+    "main.js": "/Orit-Leshem-Portfolio/static/js/main.dd83b84f.js",
+    "static/media/finderr-video.mp4": "/Orit-Leshem-Portfolio/static/media/finderr-video.88867c209f9b40d903d1.mp4",
+    "static/media/chatgpt-video.mp4": "/Orit-Leshem-Portfolio/static/media/chatgpt-video.5c8740b49c37d0d04016.mp4",
     "static/media/Orit_Leshem_resume.pdf": "/Orit-Leshem-Portfolio/static/media/Orit_Leshem_resume.68f805423966e679cc17.pdf",
     "static/media/orit.jpeg": "/Orit-Leshem-Portfolio/static/media/orit.72d2be180a63080eb1dc.jpeg",
     "static/media/note1.svg": "/Orit-Leshem-Portfolio/static/media/note1.a8bcf4fb442f13755a7e3fefcf78d0d3.svg",
@@ -11,11 +13,11 @@
     "static/media/fiverr.svg": "/Orit-Leshem-Portfolio/static/media/fiverr.4456022209f9cb28d108bd45649d30fd.svg",
     "static/media/spotify1.svg": "/Orit-Leshem-Portfolio/static/media/spotify1.6ec98c7667ee8203964983b93a7f35b9.svg",
     "index.html": "/Orit-Leshem-Portfolio/index.html",
-    "main.df2812cf.css.map": "/Orit-Leshem-Portfolio/static/css/main.df2812cf.css.map",
-    "main.8f3af3cd.js.map": "/Orit-Leshem-Portfolio/static/js/main.8f3af3cd.js.map"
+    "main.16689dbe.css.map": "/Orit-Leshem-Portfolio/static/css/main.16689dbe.css.map",
+    "main.dd83b84f.js.map": "/Orit-Leshem-Portfolio/static/js/main.dd83b84f.js.map"
   },
   "entrypoints": [
-    "static/css/main.df2812cf.css",
-    "static/js/main.8f3af3cd.js"
+    "static/css/main.16689dbe.css",
+    "static/js/main.dd83b84f.js"
   ]
 }
