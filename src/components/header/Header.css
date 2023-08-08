@@ -9,7 +9,9 @@ header{
   height: 100%;
   position: relative;
 }
-
+h1{
+  color:var(--color-primary)
+}
 .cta{
   margin-top: 2.5rem;
   display: flex;

@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import './Portfolio.css';
 import FIVERR from '../../assets/fiverr.svg';
 import SPOTIFY from '../../assets/spotify1.svg';
-import NOTE from '../../assets/note1.svg';
-import MEME from '../../assets/meme.svg';
 import CONTACT from '../../assets/bitcoin2.svg';
 import CHATGPT from '../../assets/chatgpt3.svg';
 import CHATGPTVIDEO from '../../assets/chatgpt-video.mp4';
@@ -15,7 +13,7 @@ import CONTACTVIDEO from '../../assets/finderr-video.mp4';
 const Portfolio = () => {
   const videoItems = [
     {
-      image: SPOTIFY,
+      img: SPOTIFY,
       title: 'Inspired by Spotify',
       videoSrc: SPOTIFYVIDEO,
       description: 'React | Redux | SCSS | Node.js | MongoDB | REST API',
@@ -23,7 +21,7 @@ const Portfolio = () => {
       liveDemoUrl: 'https://spotify-app-uejg.onrender.com/',
     },
     {
-      image: FIVERR,
+      img: FIVERR,
       title: 'Inspired by Fiverr',
       videoSrc: FINDERRVIDEO,
       description: 'React | Redux | SCSS | Node.js | MongoDB',
@@ -31,7 +29,7 @@ const Portfolio = () => {
       liveDemoUrl: 'https://finderr.onrender.com',
     },
     {
-      image: CHATGPT,
+      img: CHATGPT,
       title: 'Inspired by chatGPT',
       videoSrc: CHATGPTVIDEO,
       description: 'React | CSS | Node.js | REST API',
@@ -39,7 +37,7 @@ const Portfolio = () => {
       liveDemoUrl: 'https://chat-gpt-frontend.onrender.com/',
     },
     {
-      image: CONTACT,
+      img: CONTACT,
       title: 'Contact list with info about Bitcoin rate',
       videoSrc: CONTACTVIDEO,
       description: 'Vue.js | Vuex | SCSS | REST API',
@@ -70,7 +68,7 @@ const Portfolio = () => {
         {videoItems.map((item, index) => (
           <article className="portfolio__item" key={index}>
             <div className="portfolio__item-image">
-              <img src={item.image} alt="portfolio" />
+              <img src={item.img} alt="portfolio" />
             </div>
             <h3>{item.title}</h3>
             <div className="portfolio__item-desc-container">

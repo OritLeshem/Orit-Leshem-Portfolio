@@ -11,35 +11,16 @@
 
 }
 :root{
-  --color-bg:#22201d;
-  --color-bg-variant:#151414;
-  --color-primary:#8c3fd9;
-
-
+  
    --color-bg:#22201d;
   --color-bg-variant:#6d6b6b;
-  --color-primary:#C7EDE6; 
-
-  /* --color-primary:#f9bec7; */
+  /* --color-primary:#C7EDE6;  */
+  --color-primary:#f9b0bb;
   --color-primary-variant:rgb(224, 175, 160,0.4);
   --color-white:#fff;
   --color-light:rgba(255,255,255,0.6);
 
-  /* --color-bg:#240046;
-  --color-bg-variant:#5a189a;
-  --color-primary:#9d4edd;
-  --color-primary-variant:rgba(199, 125, 255,0.4);
-  --color-white:#fff;
-  --color-light:rgba(255,255,255,0.6); */
-
-  /* --color-bg:#1f1f38;
-  --color-bg-variant:#2c2c6c;
-  --color-primary:#4db5ff;
-  --color-primary-variant:rgba(77,181,255,0.4);
-  --color-white:#fff;
-  --color-light:rgba(255,255,255,0.6); */
-
-
+  
   --transition:all 400ms ease;
   --container-width-lg:75%;
   --container-width-md:86%;
@@ -58,7 +39,6 @@ body{
   background: var(--color-bg);
   color:var(--color-white);
   line-height: 1.7;
-  /* background-image: url(../assets/bg-texture.png); */
 }
 
 /* ====GENERAL STYLE=== */
