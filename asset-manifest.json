@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/Orit-Leshem-Portfolio/static/css/main.bfa50d22.css",
-    "main.js": "/Orit-Leshem-Portfolio/static/js/main.411672f5.js",
+    "main.js": "/Orit-Leshem-Portfolio/static/js/main.749488fe.js",
     "static/media/finderr-video.mp4": "/Orit-Leshem-Portfolio/static/media/finderr-video.88867c209f9b40d903d1.mp4",
+    "static/media/Spotify.mp4": "/Orit-Leshem-Portfolio/static/media/Spotify.a05b26505f75bbbbd4fc.mp4",
+    "static/media/contacts.mp4": "/Orit-Leshem-Portfolio/static/media/contacts.b11b1b615a68ff66be36.mp4",
     "static/media/chatgpt-video.mp4": "/Orit-Leshem-Portfolio/static/media/chatgpt-video.5c8740b49c37d0d04016.mp4",
     "static/media/Orit_Leshem_resume.pdf": "/Orit-Leshem-Portfolio/static/media/Orit_Leshem_resume.68f805423966e679cc17.pdf",
     "static/media/orit.jpeg": "/Orit-Leshem-Portfolio/static/media/orit.72d2be180a63080eb1dc.jpeg",
@@ -12,10 +14,10 @@
     "static/media/spotify1.svg": "/Orit-Leshem-Portfolio/static/media/spotify1.6ec98c7667ee8203964983b93a7f35b9.svg",
     "index.html": "/Orit-Leshem-Portfolio/index.html",
     "main.bfa50d22.css.map": "/Orit-Leshem-Portfolio/static/css/main.bfa50d22.css.map",
-    "main.411672f5.js.map": "/Orit-Leshem-Portfolio/static/js/main.411672f5.js.map"
+    "main.749488fe.js.map": "/Orit-Leshem-Portfolio/static/js/main.749488fe.js.map"
   },
   "entrypoints": [
     "static/css/main.bfa50d22.css",
-    "static/js/main.411672f5.js"
+    "static/js/main.749488fe.js"
   ]
 }
