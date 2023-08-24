@@ -7,8 +7,8 @@ import CONTACT from '../../assets/bitcoin2.svg';
 import CHATGPT from '../../assets/chatgpt3.svg';
 import CHATGPTVIDEO from '../../assets/chatgpt-video.mp4';
 import FINDERRVIDEO from '../../assets/finderr-video.mp4';
-import SPOTIFYVIDEO from '../../assets/finderr-video.mp4';
-import CONTACTVIDEO from '../../assets/finderr-video.mp4';
+import SPOTIFYVIDEO from '../../assets/Spotify.mp4';
+import CONTACTVIDEO from '../../assets/contacts.mp4';
 
 const Portfolio = () => {
   const videoItems = [
