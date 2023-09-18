@@ -4,6 +4,19 @@ footer{
   text-align: center;
   font-size: 0.9rem;
   margin-top: 7rem;
+  
+}
+.qr{
+width: 100vw;
+display: flex;
+justify-content: center;
+}
+.qr-img{
+ width: 150px;  
+ border-radius: 10px;
+ margin-bottom: 1.5rem;
+
+ 
 }
 footer a{
   color:var(--color-bg);
