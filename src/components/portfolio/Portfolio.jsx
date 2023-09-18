@@ -24,7 +24,7 @@ const Portfolio = () => {
       img: FIVERR,
       title: 'Inspired by Fiverr',
       videoSrc: FINDERRVIDEO,
-      description: 'React | Redux | SCSS | Node.js | MongoDB',
+      description: 'React | Redux | SCSS | Node.js | MongoDB | REST API | Socket.io' ,
       githubUrl: 'https://github.com/OritLeshem/sprint4-fiverr',
       liveDemoUrl: 'https://finderr.onrender.com',
     },
