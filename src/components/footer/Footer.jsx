@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <div className='qr'><img className='qr-img' src={QR} alt="" /></div>
+        <div className='qr'><img className='qr-img' src={QR} alt="QR" /></div>
 
         <a href='#' className='footer__logo'>Orit Leshem  </a>
         <ul className='permalinks'>

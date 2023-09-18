@@ -61,27 +61,27 @@ const Portfolio = () => {
 
 
   return (
-    <section id="portfolio">
+    <section id='portfolio'>
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
-      <div className="container portfolio__container">
+      <div className='container portfolio__container'>
         {videoItems.map((item, index) => (
-          <article className="portfolio__item" key={index}>
-            <div className="portfolio__item-image">
-              <img src={item.img} alt="portfolio" />
+          <article className='portfolio__item' key={index}>
+            <div className='portfolio__item-image'>
+              <img src={item.img} alt='portfolio' />
             </div>
             <h3>{item.title}</h3>
-            <div className="portfolio__item-desc-container">
-              <h3 className="portfolio__item-desc">{item.description}</h3>
+            <div className='portfolio__item-desc-container'>
+              <h3 className='portfolio__item-desc'>{item.description}</h3>
             </div>
-            <div className="portfolio__item-cta">
-              <a href={item.githubUrl} className="btn" target="_blank" rel="noopener noreferrer">
+            <div className='portfolio__item-cta'>
+              <a href={item.githubUrl} className='btn' target='_blank' rel='noopener noreferrer'>
                 Github
               </a>
-              <a href={item.liveDemoUrl} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              <a href={item.liveDemoUrl} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>
                 Live-demo
               </a>
-              <button className="btn" onClick={() => handlePlay(index)}>
+              <button className='btn' onClick={() => handlePlay(index)}>
                 {activeVideoIndex === index ? 'Close' : 'Video'}
               </button>
             </div>
