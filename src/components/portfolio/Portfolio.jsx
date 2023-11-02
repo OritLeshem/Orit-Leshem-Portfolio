@@ -18,15 +18,15 @@ const Portfolio = () => {
       videoSrc: SPOTIFYVIDEO,
       description: 'React | Redux | SCSS | Node.js | MongoDB | REST API',
       githubUrl: 'https://github.com/OritLeshem/spotify-app',
-      liveDemoUrl: 'https://spotify-app-uejg.onrender.com/',
+      liveDemoUrl: 'https://spotify-u0tx.onrender.com/',
     },
     {
       img: FIVERR,
       title: 'Inspired by Fiverr',
       videoSrc: FINDERRVIDEO,
-      description: 'React | Redux | SCSS | Node.js | MongoDB | REST API | Socket.io' ,
+      description: 'React | Redux | SCSS | Node.js | MongoDB | REST API | Socket.io',
       githubUrl: 'https://github.com/OritLeshem/sprint4-fiverr',
-      liveDemoUrl: 'https://finderr.onrender.com',
+      liveDemoUrl: 'https://fiverr-sz06.onrender.com/',
     },
     {
       img: CHATGPT,
@@ -34,7 +34,7 @@ const Portfolio = () => {
       videoSrc: CHATGPTVIDEO,
       description: 'React | CSS | Node.js | REST API',
       githubUrl: 'https://github.com/OritLeshem/chat-gpt',
-      liveDemoUrl: 'https://chat-gpt-frontend.onrender.com/',
+      liveDemoUrl: 'https://chat-gpt-backend-4v5b.onrender.com/',
     },
     {
       img: CONTACT,
