@@ -19,6 +19,8 @@ const Portfolio = () => {
       description: 'React | Redux | SCSS | Node.js | MongoDB | REST API',
       githubUrl: 'https://github.com/OritLeshem/spotify-app',
       liveDemoUrl: 'https://spotify-u0tx.onrender.com/',
+
+
     },
     {
       img: FIVERR,
@@ -27,6 +29,8 @@ const Portfolio = () => {
       description: 'React | Redux | SCSS | Node.js | MongoDB | REST API | Socket.io',
       githubUrl: 'https://github.com/OritLeshem/sprint4-fiverr',
       liveDemoUrl: 'https://fiverr-sz06.onrender.com/',
+      // liveDemoUrl: 'https://finderr-50fu.onrender.com/',
+
     },
     {
       img: CHATGPT,
