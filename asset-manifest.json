@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Orit-Leshem-Portfolio/static/css/main.35436805.css",
-    "main.js": "/Orit-Leshem-Portfolio/static/js/main.aa0b88aa.js",
+    "main.js": "/Orit-Leshem-Portfolio/static/js/main.2db6fe5d.js",
     "static/media/finderr-video.mp4": "/Orit-Leshem-Portfolio/static/media/finderr-video.88867c209f9b40d903d1.mp4",
     "static/media/Spotify.mp4": "/Orit-Leshem-Portfolio/static/media/Spotify.a05b26505f75bbbbd4fc.mp4",
     "static/media/contacts.mp4": "/Orit-Leshem-Portfolio/static/media/contacts.b11b1b615a68ff66be36.mp4",
     "static/media/chatgpt-video.mp4": "/Orit-Leshem-Portfolio/static/media/chatgpt-video.5c8740b49c37d0d04016.mp4",
-    "static/media/Orit_Leshem_resume.pdf": "/Orit-Leshem-Portfolio/static/media/Orit_Leshem_resume.8215b29885e97ec2d012.pdf",
+    "static/media/Orit_Leshem_resume.pdf": "/Orit-Leshem-Portfolio/static/media/Orit_Leshem_resume.8b4a2a3b4860556788dd.pdf",
     "static/media/orit.jpeg": "/Orit-Leshem-Portfolio/static/media/orit.72d2be180a63080eb1dc.jpeg",
     "static/media/qr-code.png": "/Orit-Leshem-Portfolio/static/media/qr-code.ee5dbe7b2183032cf378.png",
     "static/media/bitcoin2.svg": "/Orit-Leshem-Portfolio/static/media/bitcoin2.e818b277f4aca49804fd545f01fb0ecd.svg",
@@ -15,10 +15,10 @@
     "static/media/spotify1.svg": "/Orit-Leshem-Portfolio/static/media/spotify1.6ec98c7667ee8203964983b93a7f35b9.svg",
     "index.html": "/Orit-Leshem-Portfolio/index.html",
     "main.35436805.css.map": "/Orit-Leshem-Portfolio/static/css/main.35436805.css.map",
-    "main.aa0b88aa.js.map": "/Orit-Leshem-Portfolio/static/js/main.aa0b88aa.js.map"
+    "main.2db6fe5d.js.map": "/Orit-Leshem-Portfolio/static/js/main.2db6fe5d.js.map"
   },
   "entrypoints": [
     "static/css/main.35436805.css",
-    "static/js/main.aa0b88aa.js"
+    "static/js/main.2db6fe5d.js"
   ]
 }
