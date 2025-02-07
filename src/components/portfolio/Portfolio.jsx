@@ -35,7 +35,7 @@ const Portfolio = () => {
       videoSrc: CHATGPTVIDEO,
       description: "React | CSS | Node.js | REST API",
       githubUrl: "https://github.com/OritLeshem/chat-gpt",
-      liveDemoUrl: "https://chat-gpt-backend-4v5b.onrender.com/",
+      liveDemoUrl: "https://chat-gpt-backend-x0yn.onrender.com/",
     },
     {
       img: CONTACT,
