@@ -18,7 +18,7 @@ const Portfolio = () => {
       videoSrc: SPOTIFYVIDEO,
       description: "React | Redux | SCSS | Node.js | MongoDB | REST API",
       githubUrl: "https://github.com/OritLeshem/spotify-app",
-      liveDemoUrl: "https://spotify-u0tx.onrender.com/",
+      liveDemoUrl: "https://spotifyapp-ahj8.onrender.com/",
     },
     {
       img: FIVERR,
