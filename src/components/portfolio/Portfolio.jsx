@@ -1,92 +1,97 @@
 // Portfolio.js
-import React, { useState } from 'react';
-import './Portfolio.css';
-import FIVERR from '../../assets/fiverr.svg';
-import SPOTIFY from '../../assets/spotify1.svg';
-import CONTACT from '../../assets/bitcoin2.svg';
-import CHATGPT from '../../assets/chatgpt3.svg';
-import CHATGPTVIDEO from '../../assets/chatgpt-video.mp4';
-import FINDERRVIDEO from '../../assets/finderr-video.mp4';
-import SPOTIFYVIDEO from '../../assets/Spotify.mp4';
-import CONTACTVIDEO from '../../assets/contacts.mp4';
+import React, { useState } from "react";
+import "./Portfolio.css";
+import FIVERR from "../../assets/fiverr.svg";
+import SPOTIFY from "../../assets/spotify1.svg";
+import CONTACT from "../../assets/bitcoin2.svg";
+import CHATGPT from "../../assets/chatgpt3.svg";
+import CHATGPTVIDEO from "../../assets/chatgpt-video.mp4";
+import FINDERRVIDEO from "../../assets/finderr-video.mp4";
+import SPOTIFYVIDEO from "../../assets/Spotify.mp4";
+import CONTACTVIDEO from "../../assets/contacts.mp4";
 
 const Portfolio = () => {
   const videoItems = [
     {
       img: SPOTIFY,
-      title: 'Inspired by Spotify',
+      title: "Inspired by Spotify",
       videoSrc: SPOTIFYVIDEO,
-      description: 'React | Redux | SCSS | Node.js | MongoDB | REST API',
-      githubUrl: 'https://github.com/OritLeshem/spotify-app',
-      liveDemoUrl: 'https://spotify-u0tx.onrender.com/',
-
-
+      description: "React | Redux | SCSS | Node.js | MongoDB | REST API",
+      githubUrl: "https://github.com/OritLeshem/spotify-app",
+      liveDemoUrl: "https://spotify-u0tx.onrender.com/",
     },
     {
       img: FIVERR,
-      title: 'Inspired by Fiverr',
+      title: "Inspired by Fiverr",
       videoSrc: FINDERRVIDEO,
-      description: 'React | Redux | SCSS | Node.js | MongoDB | REST API | Socket.io',
-      githubUrl: 'https://github.com/OritLeshem/sprint4-fiverr',
-      liveDemoUrl: 'https://fiverr-sz06.onrender.com/',
-      // liveDemoUrl: 'https://finderr-50fu.onrender.com/',
-
+      description:
+        "React | Redux | SCSS | Node.js | MongoDB | REST API | Socket.io",
+      githubUrl: "https://github.com/OritLeshem/sprint4-fiverr",
+      liveDemoUrl: "https://finderr-50fu.onrender.com/",
     },
     {
       img: CHATGPT,
-      title: 'Inspired by chatGPT',
+      title: "Inspired by chatGPT",
       videoSrc: CHATGPTVIDEO,
-      description: 'React | CSS | Node.js | REST API',
-      githubUrl: 'https://github.com/OritLeshem/chat-gpt',
-      liveDemoUrl: 'https://chat-gpt-backend-4v5b.onrender.com/',
+      description: "React | CSS | Node.js | REST API",
+      githubUrl: "https://github.com/OritLeshem/chat-gpt",
+      liveDemoUrl: "https://chat-gpt-backend-4v5b.onrender.com/",
     },
     {
       img: CONTACT,
-      title: 'Contact list with info about Bitcoin rate',
+      title: "Contact list with info about Bitcoin rate",
       videoSrc: CONTACTVIDEO,
-      description: 'Vue.js | Vuex | SCSS | REST API',
-      githubUrl: 'https://github.com/OritLeshem/Mr-Bitcoin',
-      liveDemoUrl: 'https://oritleshem.github.io/Mr-Bitcoin/',
+      description: "Vue.js | Vuex | SCSS | REST API",
+      githubUrl: "https://github.com/OritLeshem/Mr-Bitcoin",
+      liveDemoUrl: "https://oritleshem.github.io/Mr-Bitcoin/",
     },
-  ]
+  ];
 
   const [activeVideoIndex, setActiveVideoIndex] = useState(null);
 
   const handlePlay = (index) => {
     if (activeVideoIndex === index) {
       // If the same video is already playing, close it
-      setActiveVideoIndex(null)
+      setActiveVideoIndex(null);
     } else {
       // If a different video is playing or no video is playing, play the clicked video
-      setActiveVideoIndex(index)
+      setActiveVideoIndex(index);
     }
-  }
-
-
+  };
 
   return (
-    <section id='portfolio'>
+    <section id="portfolio">
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
-      <div className='container portfolio__container'>
+      <div className="container portfolio__container">
         {videoItems.map((item, index) => (
-          <article className='portfolio__item' key={index}>
-            <div className='portfolio__item-image'>
-              <img src={item.img} alt='portfolio' />
+          <article className="portfolio__item" key={index}>
+            <div className="portfolio__item-image">
+              <img src={item.img} alt="portfolio" />
             </div>
             <h3>{item.title}</h3>
-            <div className='portfolio__item-desc-container'>
-              <h3 className='portfolio__item-desc'>{item.description}</h3>
+            <div className="portfolio__item-desc-container">
+              <h3 className="portfolio__item-desc">{item.description}</h3>
             </div>
-            <div className='portfolio__item-cta'>
-              <a href={item.githubUrl} className='btn' target='_blank' rel='noopener noreferrer'>
+            <div className="portfolio__item-cta">
+              <a
+                href={item.githubUrl}
+                className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Github
               </a>
-              <a href={item.liveDemoUrl} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>
+              <a
+                href={item.liveDemoUrl}
+                className="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live-demo
               </a>
-              <button className='btn' onClick={() => handlePlay(index)}>
-                {activeVideoIndex === index ? 'Close' : 'Video'}
+              <button className="btn" onClick={() => handlePlay(index)}>
+                {activeVideoIndex === index ? "Close" : "Video"}
               </button>
             </div>
             {activeVideoIndex === index && (
@@ -94,7 +99,7 @@ const Portfolio = () => {
                 <video
                   autoPlay
                   controls
-                  style={{ width: '100%', maxWidth: '800px' }}
+                  style={{ width: "100%", maxWidth: "800px" }}
                   src={item.videoSrc}
                 />
               </div>
@@ -103,8 +108,7 @@ const Portfolio = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-
-export default Portfolio
+export default Portfolio;
